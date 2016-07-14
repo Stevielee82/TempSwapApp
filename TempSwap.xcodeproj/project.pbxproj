@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		003211DA1D379152004181FD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003211D91D379152004181FD /* AppDelegate.swift */; };
+		003211DD1D379152004181FD /* TempSwap.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 003211DB1D379152004181FD /* TempSwap.xcdatamodeld */; };
+		003211DF1D379152004181FD /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003211DE1D379152004181FD /* MasterViewController.swift */; };
+		003211E11D379152004181FD /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003211E01D379152004181FD /* DetailViewController.swift */; };
+		003211E41D379152004181FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 003211E21D379152004181FD /* Main.storyboard */; };
+		003211E61D379152004181FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 003211E51D379152004181FD /* Assets.xcassets */; };
+		003211E91D379152004181FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 003211E71D379152004181FD /* LaunchScreen.storyboard */; };
+		003211F41D379153004181FD /* TempSwapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003211F31D379153004181FD /* TempSwapTests.swift */; };
+		003211FF1D379153004181FD /* TempSwapUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003211FE1D379153004181FD /* TempSwapUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		003211F01D379153004181FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 003211CE1D379152004181FD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 003211D51D379152004181FD;
+			remoteInfo = TempSwap;
+		};
+		003211FB1D379153004181FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 003211CE1D379152004181FD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 003211D51D379152004181FD;
+			remoteInfo = TempSwap;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		003211D61D379152004181FD /* TempSwap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TempSwap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		003211D91D379152004181FD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		003211DC1D379152004181FD /* TempSwap.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TempSwap.xcdatamodel; sourceTree = "<group>"; };
+		003211DE1D379152004181FD /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		003211E01D379152004181FD /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		003211E31D379152004181FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		003211E51D379152004181FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		003211E81D379152004181FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		003211EA1D379152004181FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		003211EF1D379153004181FD /* TempSwapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TempSwapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		003211F31D379153004181FD /* TempSwapTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempSwapTests.swift; sourceTree = "<group>"; };
+		003211F51D379153004181FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		003211FA1D379153004181FD /* TempSwapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TempSwapUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		003211FE1D379153004181FD /* TempSwapUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempSwapUITests.swift; sourceTree = "<group>"; };
+		003212001D379153004181FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		003211D31D379152004181FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		003211EC1D379153004181FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		003211F71D379153004181FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		003211CD1D379152004181FD = {
+			isa = PBXGroup;
+			children = (
+				003211D81D379152004181FD /* TempSwap */,
+				003211F21D379153004181FD /* TempSwapTests */,
+				003211FD1D379153004181FD /* TempSwapUITests */,
+				003211D71D379152004181FD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		003211D71D379152004181FD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				003211D61D379152004181FD /* TempSwap.app */,
+				003211EF1D379153004181FD /* TempSwapTests.xctest */,
+				003211FA1D379153004181FD /* TempSwapUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		003211D81D379152004181FD /* TempSwap */ = {
+			isa = PBXGroup;
+			children = (
+				003211D91D379152004181FD /* AppDelegate.swift */,
+				003211DE1D379152004181FD /* MasterViewController.swift */,
+				003211E01D379152004181FD /* DetailViewController.swift */,
+				003211E21D379152004181FD /* Main.storyboard */,
+				003211E51D379152004181FD /* Assets.xcassets */,
+				003211E71D379152004181FD /* LaunchScreen.storyboard */,
+				003211EA1D379152004181FD /* Info.plist */,
+				003211DB1D379152004181FD /* TempSwap.xcdatamodeld */,
+			);
+			path = TempSwap;
+			sourceTree = "<group>";
+		};
+		003211F21D379153004181FD /* TempSwapTests */ = {
+			isa = PBXGroup;
+			children = (
+				003211F31D379153004181FD /* TempSwapTests.swift */,
+				003211F51D379153004181FD /* Info.plist */,
+			);
+			path = TempSwapTests;
+			sourceTree = "<group>";
+		};
+		003211FD1D379153004181FD /* TempSwapUITests */ = {
+			isa = PBXGroup;
+			children = (
+				003211FE1D379153004181FD /* TempSwapUITests.swift */,
+				003212001D379153004181FD /* Info.plist */,
+			);
+			path = TempSwapUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		003211D51D379152004181FD /* TempSwap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 003212031D379153004181FD /* Build configuration list for PBXNativeTarget "TempSwap" */;
+			buildPhases = (
+				003211D21D379152004181FD /* Sources */,
+				003211D31D379152004181FD /* Frameworks */,
+				003211D41D379152004181FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TempSwap;
+			productName = TempSwap;
+			productReference = 003211D61D379152004181FD /* TempSwap.app */;
+			productType = "com.apple.product-type.application";
+		};
+		003211EE1D379153004181FD /* TempSwapTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 003212061D379153004181FD /* Build configuration list for PBXNativeTarget "TempSwapTests" */;
+			buildPhases = (
+				003211EB1D379153004181FD /* Sources */,
+				003211EC1D379153004181FD /* Frameworks */,
+				003211ED1D379153004181FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				003211F11D379153004181FD /* PBXTargetDependency */,
+			);
+			name = TempSwapTests;
+			productName = TempSwapTests;
+			productReference = 003211EF1D379153004181FD /* TempSwapTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		003211F91D379153004181FD /* TempSwapUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 003212091D379153004181FD /* Build configuration list for PBXNativeTarget "TempSwapUITests" */;
+			buildPhases = (
+				003211F61D379153004181FD /* Sources */,
+				003211F71D379153004181FD /* Frameworks */,
+				003211F81D379153004181FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				003211FC1D379153004181FD /* PBXTargetDependency */,
+			);
+			name = TempSwapUITests;
+			productName = TempSwapUITests;
+			productReference = 003211FA1D379153004181FD /* TempSwapUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		003211CE1D379152004181FD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = TempSwap;
+				TargetAttributes = {
+					003211D51D379152004181FD = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					003211EE1D379153004181FD = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 003211D51D379152004181FD;
+					};
+					003211F91D379153004181FD = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 003211D51D379152004181FD;
+					};
+				};
+			};
+			buildConfigurationList = 003211D11D379152004181FD /* Build configuration list for PBXProject "TempSwap" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 003211CD1D379152004181FD;
+			productRefGroup = 003211D71D379152004181FD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				003211D51D379152004181FD /* TempSwap */,
+				003211EE1D379153004181FD /* TempSwapTests */,
+				003211F91D379153004181FD /* TempSwapUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		003211D41D379152004181FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				003211E91D379152004181FD /* LaunchScreen.storyboard in Resources */,
+				003211E61D379152004181FD /* Assets.xcassets in Resources */,
+				003211E41D379152004181FD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		003211ED1D379153004181FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		003211F81D379153004181FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		003211D21D379152004181FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				003211DD1D379152004181FD /* TempSwap.xcdatamodeld in Sources */,
+				003211DA1D379152004181FD /* AppDelegate.swift in Sources */,
+				003211DF1D379152004181FD /* MasterViewController.swift in Sources */,
+				003211E11D379152004181FD /* DetailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		003211EB1D379153004181FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				003211F41D379153004181FD /* TempSwapTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		003211F61D379153004181FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				003211FF1D379153004181FD /* TempSwapUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		003211F11D379153004181FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 003211D51D379152004181FD /* TempSwap */;
+			targetProxy = 003211F01D379153004181FD /* PBXContainerItemProxy */;
+		};
+		003211FC1D379153004181FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 003211D51D379152004181FD /* TempSwap */;
+			targetProxy = 003211FB1D379153004181FD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		003211E21D379152004181FD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				003211E31D379152004181FD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		003211E71D379152004181FD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				003211E81D379152004181FD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		003212011D379153004181FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		003212021D379153004181FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		003212041D379153004181FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TempSwap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Com.TempSwap.TempSwap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		003212051D379153004181FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TempSwap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Com.TempSwap.TempSwap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		003212071D379153004181FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TempSwapTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Com.TempSwap.TempSwapTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TempSwap.app/TempSwap";
+			};
+			name = Debug;
+		};
+		003212081D379153004181FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TempSwapTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Com.TempSwap.TempSwapTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TempSwap.app/TempSwap";
+			};
+			name = Release;
+		};
+		0032120A1D379153004181FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TempSwapUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Com.TempSwap.TempSwapUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TempSwap;
+			};
+			name = Debug;
+		};
+		0032120B1D379153004181FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TempSwapUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Com.TempSwap.TempSwapUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TempSwap;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		003211D11D379152004181FD /* Build configuration list for PBXProject "TempSwap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				003212011D379153004181FD /* Debug */,
+				003212021D379153004181FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		003212031D379153004181FD /* Build configuration list for PBXNativeTarget "TempSwap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				003212041D379153004181FD /* Debug */,
+				003212051D379153004181FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		003212061D379153004181FD /* Build configuration list for PBXNativeTarget "TempSwapTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				003212071D379153004181FD /* Debug */,
+				003212081D379153004181FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		003212091D379153004181FD /* Build configuration list for PBXNativeTarget "TempSwapUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0032120A1D379153004181FD /* Debug */,
+				0032120B1D379153004181FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		003211DB1D379152004181FD /* TempSwap.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				003211DC1D379152004181FD /* TempSwap.xcdatamodel */,
+			);
+			currentVersion = 003211DC1D379152004181FD /* TempSwap.xcdatamodel */;
+			path = TempSwap.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 003211CE1D379152004181FD /* Project object */;
+}
